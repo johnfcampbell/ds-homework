@@ -1,0 +1,42 @@
+Let's get started with our admissions.csv dataset
+1. Create a data dictionary
+Answer:
+Admission	1=admitted, 0= not admitted	categorical
+GRE		Score on GRE test		continuous	
+GPA		Grade point average		continuous
+Prestige 	Rank of undergrad school	categorical
+
+We would like to explore the associations between GRE, GPA or Prestige and Admission.
+
+We would like to explore the association between X and Y
+2. What is the outcome?
+Answer: Not sure how to answer
+3. What are the predictors/covariates?
+Answer: GRE, GPA, prestige 
+4. What timeframe is this data relevant for?
+Answer: Can't tell, but will say snapshot
+5. What is the hypothesis?
+Answer: One of the scores – GRE, GPA, prestige – will have the tightest association with admissions.
+6. Using the above information, write a well-formed problem statement.
+Answer: 
+Exploratory Analysis Plan
+Using the lab from a class as a guide, create an exploratory analysis plan.
+1. What are the goals of the exploratory analysis?
+Answer: Find which, if any of the variables GRE, GPA and Prestige is a predictor.
+2a. What are the assumptions regarding the distribution of the data?
+Answer: For GRE, all will be within the bounds of the testing scale. Looks like this data is from a pre-2012 administration, with scores ranging from 200 to 800. 
+For GPA, all entries within bounds of 0.0 to 4.0, inclusive.
+For Prestige, all entries will be 1, 2, 3 or 4. 
+2b. How will you determine the distribution of your data?
+Answer: Not sure how to answer
+3a. How might outliers impact your analysis?
+Answer: Not sure. Are tests not taken or GPAs not issued considered outliers?
+3b. How will you test for outliers?
+Answer:  For GRE, I think the mean is 585, standard deviation is 125. Highest score is 800, which is less than 2 standard deviations from the mean. Scores between 200 and 335 could be considered outliers, and only one score below 335 belongs to an admitted student. Could perform a similar test for GPA.
+4. What is your exploratory analysis plan?
+Using the above information, write an exploratory analysis plan that would allow you or a colleague to reproduce your analysis 1 year from now.
+Answer: 
+Bonus Questions:
+1. Outline your analysis method for predicting your outcome
+2. Write an alternative problem statement for your dataset
+3. Articulate the assumptions and risks of the alternative model
